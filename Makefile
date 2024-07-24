@@ -1,10 +1,11 @@
-all: build
+hello:
+	echo "Hello"
 
 build:
-	go build -o myapp main.go
+	go build -o bin/main main.go
 
 run:
-	./myapp
+	go run main.go
 
 clean:
 	rm -f myapp
