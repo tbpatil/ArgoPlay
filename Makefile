@@ -2,7 +2,7 @@ hello:
 	echo "Hello"
 
 build:
-	go build -o bin/main main.go
+	go build -o src/main main.go
 
 run:
 	go run main.go
